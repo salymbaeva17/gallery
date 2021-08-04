@@ -1,2 +1,29 @@
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery{
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 0 15px;
+}
+.big-box .lg-img{
+    width: 100%;
+    object-fit: contain;
+}
+.small-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sm-img{
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid transparent;
+    transition: .6s;
+}
+.active-img{
+    border: 2px solid indianred;
+}
